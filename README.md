@@ -14,7 +14,6 @@
 <div align="center">
 <br />
 
-![Build Status](https://github.com/HamidMolareza/TestAssist/actions/workflows/ACTION.yaml/badge.svg?branch=BRANCH)
 ![GitHub](https://img.shields.io/github/license/HamidMolareza/TestAssist)
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/HamidMolareza/TestAssist/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
