@@ -25,7 +25,6 @@ jobs:
         with:
           inputs: |
             - name: version
-              default: ''
               default: '$(git rev-parse --abbrev-ref HEAD)'
 
       - name: Run Changelog
