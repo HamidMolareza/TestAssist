@@ -1,15 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
-      <PackageReference Include="MockQueryable.Moq" Version="7.0.1" />
-      <PackageReference Include="Moq" Version="4.20.70" />
-    </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="MockQueryable.Moq" Version="7.0.1" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>TestAssist</PackageId>
+    <Description>Essential utilities and helpers for streamlined unit testing in C#</Description>
+    <Version>0.0.1</Version>
+    <PackageTags>test; xunit; mock</PackageTags>
+    <Authors>Hamid Molareza</Authors>
+    <RepositoryUrl>https://github.com/HamidMolareza/TestAssist</RepositoryUrl>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+  </PropertyGroup>
 
 </Project>
